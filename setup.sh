@@ -1,5 +1,5 @@
 export DATABASE_URL="postgresql://postgres:<password>@localhost:5432/casting_agency"
-export AUTH0_DOMAIN="your-tenant.eu.auth0.com"
+export AUTH0_DOMAIN="dev-ahmeddxfouad.eu.auth0.com"
 export API_AUDIENCE="casting-agency"
 export ALGORITHMS="RS256"
 

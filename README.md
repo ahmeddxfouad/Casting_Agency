@@ -17,9 +17,13 @@ This project models a casting agency workflow where different staff roles have d
 
 ## Live API
 
-- Base URL: `https://<YOUR-DEPLOYED-URL>`
+- Base URL: `https://casting-agency-api-4rcc.onrender.com/`
 
-Replace with your real deployed URL before submission.
+
+## Live API Verification
+
+- Health check: `curl https://casting-agency-api-4rcc.onrender.com/`
+- Protected endpoint: `curl -H "Authorization: Bearer <ASSISTANT_TOKEN>" https://casting-agency-api-4rcc.onrender.com/actors`
 
 ## Roles and Permissions
 
@@ -220,3 +224,6 @@ curl -X POST http://127.0.0.1:5000/movies \
 - Do not commit real JWTs or client secrets.
 - Rotate any leaked Auth0 client secrets immediately.
 - This project validates RS256 JWTs using Auth0 JWKS.
+
+
+
